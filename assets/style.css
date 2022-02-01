@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding:20px 25px;
+    padding:20px 35px;
     background-color: #39a6b2;
 }
 
@@ -22,6 +23,8 @@ header h1 {
     display:inline;
 }
 
+/* in case of error, you added another txt-dec because the 
+    first txt-dec:"none" didn't work*/
 header a {
     text-decoration: none;
     color: #fce138;
@@ -33,6 +36,9 @@ header nav {
     margin: 7px 0;
 }
 
+/* just in case there is an error, you removed the "ul" from both "header nav"s
+    because it didn't put the navigation menu list in a horizontal line*/
+
 header nav li {
     display: inline;
 }
@@ -41,4 +47,27 @@ header nav li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+footer {
+    background: #fce139;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin:0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76
 }
