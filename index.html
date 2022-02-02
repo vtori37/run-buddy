@@ -42,14 +42,17 @@
                 <p>Fill out this form and one of our trainers will schedule a consult.</p>
         
                  <!--Add form element-->
-            <form>
-                <div class="input-form">
-                    <br><label for="name"> Enter full name: </label>
-                    <br><input type="text" placeholder="Your Name" name="name" id="name" />
-                    <br><label for= "email"> Enter email address:</label>
-                    <br><input type="email" placeholder="Email" name="email" id="email" />
-                    <br><label for= "phone"> Enter a telephone number:</label>
-                    <br><input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+            <form >
+                <div>           
+                    <label for="name"> Enter full name: </label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                
+                    <label for= "email"> Enter email address:</label>
+                    <input type="email" placeholder="Email" name="email" id="email" class="form-input" />
+
+                    <label for= "phone"> Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+                
                 </div>
                 <br>
                 <p>
@@ -59,10 +62,11 @@
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
                     <label for="trainer-no">No</label>
                 </p>
+                <!--"Get Running" button-->
                 <p> 
                     <input type="checkbox" id="checkbox" name="age">
                     <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
-                    <button type="submit"> Get Running!</button>
+                    <button type="submit" class=> Get Running!</button>
                 </p>
             </form>
         </div>
