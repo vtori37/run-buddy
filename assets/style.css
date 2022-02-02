@@ -26,10 +26,9 @@ header h1 {
 /* in case of error, you added another txt-dec because the 
     first txt-dec:"none" didn't work*/
 header a {
-    text-decoration: none;
-    color: #fce138;
-    text-decoration-color:#39a6b2
-}
+    text-decoration-color:none;
+    color:#fce138;
+    }
 
 header nav {
     float: right;
@@ -41,6 +40,7 @@ header nav {
 
 header nav li {
     display: inline;
+    text-decoration-color:none;
 }
 
 header nav li a {
