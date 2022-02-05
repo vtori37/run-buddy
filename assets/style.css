@@ -38,12 +38,12 @@ header nav {
 /* just in case there is an error, you removed the "ul" from both "header nav"s
     because it didn't put the navigation menu list in a horizontal line*/
 
-header nav li {
+header nav ul li {
     display: inline;
     text-decoration-color:none;
 }
 
-header nav li a {
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -76,15 +76,15 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start*/
+
+/* Hero Style Start; Homepage*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
-    position:right
+    position: relative;
 }
-/* Hero Style End*/
 
 .hero-form {
     border:#024e76 solid 3px;
@@ -111,6 +111,7 @@ section {
     margin: 0 5px;
   }
 
+
 .form-input {    
   border: 1px solid #024e76;
   display: block;
@@ -129,7 +130,8 @@ section {
     margin:10px 0 -15px 0;
     font-size: 16px;
 }
-
+ /* Hero Style End*/
+ 
 .intro {
     text-align:center;
 }
@@ -192,7 +194,6 @@ section {
     text-align: center;
 }
 .trainers {
-    text-align: center;
     width: 900px;
     margin: 0 auto 30px auto;
     background: #023e76;
