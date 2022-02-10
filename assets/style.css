@@ -39,15 +39,17 @@ header nav {
 /* just in case there is an error, you removed the "ul" from both "header nav"s
     because it didn't put the navigation menu list in a horizontal line*/
 
-header nav ul li {
-    display: inline;
-    text-decoration-color:none;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none
 }
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
